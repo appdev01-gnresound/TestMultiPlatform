@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
+# Visual Studio 2012
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TestMultiPlatform", "TestMultiPlatform\TestMultiPlatform\TestMultiPlatform.shproj", "{3C84E105-797B-4D2B-A514-CA6B8F9A285F}"
@@ -10,11 +10,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMultiPlatform.Droid", "TestMultiPlatform\TestMultiPlatform.Droid\TestMultiPlatform.Droid.csproj", "{E9FADCFF-C5CE-427B-815D-0965F3AAE854}"
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		TestMultiPlatform\TestMultiPlatform\TestMultiPlatform.projitems*{2157473d-08d3-4fcf-a941-a665f79796b9}*SharedItemsImports = 4
-		TestMultiPlatform\TestMultiPlatform\TestMultiPlatform.projitems*{3c84e105-797b-4d2b-a514-ca6b8f9a285f}*SharedItemsImports = 13
-		TestMultiPlatform\TestMultiPlatform\TestMultiPlatform.projitems*{e9fadcff-c5ce-427b-815d-0965f3aae854}*SharedItemsImports = 4
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|ARM = Debug|ARM
@@ -68,6 +63,11 @@ Global
 		{E9FADCFF-C5CE-427B-815D-0965F3AAE854}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{E9FADCFF-C5CE-427B-815D-0965F3AAE854}.Release|Mixed Platforms.Deploy.0 = Release|Any CPU
 		{E9FADCFF-C5CE-427B-815D-0965F3AAE854}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		TestMultiPlatform\TestMultiPlatform\TestMultiPlatform.projitems*{2157473d-08d3-4fcf-a941-a665f79796b9}*SharedItemsImports = 4
+		TestMultiPlatform\TestMultiPlatform\TestMultiPlatform.projitems*{3c84e105-797b-4d2b-a514-ca6b8f9a285f}*SharedItemsImports = 13
+		TestMultiPlatform\TestMultiPlatform\TestMultiPlatform.projitems*{e9fadcff-c5ce-427b-815d-0965f3aae854}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
