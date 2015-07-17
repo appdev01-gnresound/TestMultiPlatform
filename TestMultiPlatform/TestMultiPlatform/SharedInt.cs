@@ -12,7 +12,7 @@ namespace TestMultiPlatform
 		}
 
         public void IncrementInt() {
-            sharedInt += 1;
+            sharedInt += 2;
         }
 	}
 }
